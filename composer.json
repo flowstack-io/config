@@ -1,0 +1,24 @@
+{
+    "name": "flowstack-io/config",
+    "description": "Flexible configuration manager for loading, merging, and validating configuration files in PHP applications. Built on top of Symfony Config and extended for advanced use cases.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "FlowStackIo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Brice Coullaut",
+            "email": "bcoullaut@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/config": "^7.3",
+        "symfony/yaml": "^7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.4"
+    }
+}
